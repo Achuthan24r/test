@@ -1,0 +1,9 @@
+str1=input("enter a string:")
+str2="aAeiIoOuU"
+v,c=0,0
+for i in str1:
+   if i in str2:
+        v+=1
+   elif i.isalpha():
+        c+=1
+print("the given string contains {}vowels and {}constants".format(v,c))
