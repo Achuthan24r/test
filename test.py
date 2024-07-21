@@ -1,8 +1,6 @@
-str1=input("enter a 6 digit code")
-str2=input("enter a rational number")
-str3=str1+str2
-
-
-
-
-
+a=float(input("enter first side: "))
+b=float(input("enter second side: "))
+c=float(input("enter third side: "))
+s=(a + b + c)/2
+area=(s*(s-a)*(s-b)*(s-c))**0.5
+print('the area of the triangle is %0.2f'%area)
