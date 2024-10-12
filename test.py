@@ -1,6 +1,9 @@
-a=float(input("enter first side: "))
-b=float(input("enter second side: "))
-c=float(input("enter third side: "))
-s=(a + b + c)/2
-area=(s*(s-a)*(s-b)*(s-c))**0.5
-print('the area of the triangle is %0.2f'%area)
+person = int(input("enter your name: "))
+id=int(input("enter your id :"))
+profossion =int(input("enter your job:"))
+age= int (input("enter your age:"))
+p1=("person","id","prefossion")
+if p1 < age +29:
+   print("you are elligibal for this company")
+else:
+   print ("you are no not elligibal")
